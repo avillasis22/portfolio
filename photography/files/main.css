@@ -1,0 +1,83 @@
+html {
+	background-color: black;
+	padding: 3vh;
+}
+
+body {
+	font-family: helvetica;
+	color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bioDiv {
+	padding-bottom: 60vh;
+}
+
+.bioHeader {
+	padding-top: 2vh;
+	font-weight: 400;
+	font-size: 20vh;
+	margin: 0px !important;
+}
+
+.bioSubHeader {
+	margin-top: 0px;
+	font-size: 20vh;
+	color: grey;
+	margin-bottom: 0;
+}
+
+.bioText {
+	font-size: 3vh;
+	color: white;
+	width: 100vw;
+}
+
+.grey {
+	color: grey;
+}
+
+img {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 40px;
+	height: auto;
+	max-width: 100%;
+	position:absolute;
+	bottom:0px;
+
+}
+
+.imageDiv {
+	padding-left: 10vw;
+	align-items: center;
+	padding-right: 10vw;
+	position:relative;
+}
+
+.caption {
+	vertical-align: top;
+	font-family: helvetica;
+	font-weight: 400;
+	font-size: 5vh;
+	color: white;
+	letter-spacing: 0.1vh !important;
+	line-height: 5vh;
+	display: block !important;
+}
+
+.down {
+	height: 20vh;
+}
+
+.subCaption {
+	color: grey;
+	font-weight: 100;
+	font-size: 4vh;
+}
+
+.image {
+	height: 53.5vw;
+}
