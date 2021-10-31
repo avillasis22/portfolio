@@ -1,0 +1,291 @@
+/* page wide */
+
+html {
+	background-color: black;
+	padding: 3vh;
+}
+
+body {
+	font-family: helvetica;
+	color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.indent {
+	text-indent: 50px;
+}
+
+
+/* bio section */
+
+.bioDiv {
+	padding-bottom: 500px;
+}
+
+.bioHeader {
+	font-weight: 900;
+	font-size: 30vh;
+	margin: 0px !important;
+}
+
+.bioSubHeader {
+	margin-top: 0px;
+	margin-left: 100px;
+	font-size: 10vh;
+	font-style: italic;
+	color: grey;
+}
+
+.bioText {
+	color: white;
+	width: 40vw;
+	padding-left: 200px;
+	font-size: 5vh;
+	/*height:35vw;*/
+}
+
+.writingImagesDiv {
+	width: 50vw;
+}
+
+.mainImage {
+	border-radius: 40px;
+	max-width: 40vw;
+	height: auto;
+	float: left;
+	position: absolute;
+}
+
+.settingImageTwo {
+	max-width: 20%;
+	margin-top: 900px;
+}
+
+
+/* writing section */
+
+.settingStoryTitle {
+	font-size: 100px;
+}
+
+.narrativeNonfiction {
+	color: white;
+	width: 55vw;
+	font-size: 20px;
+	float: right;
+	line-height: 1.3;
+}
+
+.sectionHeader {
+	margin-top: 0px;
+	//float:right;
+	text-align: center;
+	font-size: 5vh;
+	color: grey;
+	margin-right: 30px;
+}
+
+.narrativeNonfictionTest {
+	font-size: 5vh;
+	line-height: 1.3;
+}
+
+.indentFinal {
+	background: -webkit-linear-gradient(#eee, #ffef99);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradientGalloDelCielo {
+	background: -webkit-linear-gradient(#ffef99, #cfe2f3);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradientNature {
+	background: -webkit-linear-gradient(#cfe2f3, #5091cb);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.storyTwo {
+	color: #ffef99 !important;
+}
+
+.storyThree {
+	color: #cfe2f3 !important;
+}
+
+.settingStoryTitleTest {
+	font-size: 180px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.narrativeNonfictionTitleTest {
+	font-size: 180px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.mainImageTest {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border-radius: 40px;
+	width: 80vw;
+	height: auto;
+}
+
+.ImageDivTest {
+	height:61vw;
+}
+
+.caption {
+	margin-left: 8vw;
+	font-size: 30px;
+}
+
+.captionTwo {
+	font-size:30px;
+}
+
+.smallCaption {
+	font-size: 20px;
+	font-style: italic;
+	color: grey;
+}
+
+.divider {
+	height: 600px;
+}
+
+
+/* journaling */
+
+.journaling {
+	font-size: 5vh;
+	line-height: 1.3;
+	padding-top: 500px;
+	display: inline-block;
+}
+
+.journalingtitleText {
+	font-size: 180px;
+	font-style: italic;
+	margin-bottom: 0;
+}
+
+.EntryOneTitleText {
+	color: #cfe2f3 !important;
+}
+
+.entryOne {
+	color: #5091cb;
+}
+
+.entryTwo {}
+
+.entryThree {
+	color: #FFA500;
+}
+
+.gradientEntryOne {
+	font-size: 40px;
+	max-width: 45%;
+	float: left;
+	background: -webkit-linear-gradient(#5091cb, #E69138);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.gradientEntryTwo {
+	font-size: 40px;
+	max-width: 45%;
+	float: right;
+	background: -webkit-linear-gradient(#9f8f80, #FFA500);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-top: 500px;
+}
+
+.gradientEntryThree {
+	font-size: 40px;
+	max-width: 45%;
+	background: -webkit-linear-gradient(#FFA500, #6a329f, #6fa8dc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.journalDivider {
+	height: 2000px;
+}
+
+
+/* analytical writing */
+
+.analyticalWriting {
+	font-size: 5vh;
+	line-height: 1.3;
+	padding-top: 500px;
+}
+
+.analyticaltitleText {
+	font-size: 7.2vw !important;
+	font-style: italic;
+	margin-bottom: 0px;
+	line-height: 7.2vw !important;
+}
+
+.subText {
+	font-size: 1.5vw;
+	color: grey;
+
+}
+
+.gradientTextOne {
+	font-size: 40px;
+	padding-left: 22vw;
+	padding-right: 22vw;
+	line-height: 1.5;
+}
+
+.dividerSmall {
+	height: 200px;
+}
+
+.firstGradient {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	height: 100vh;
+	bottom: 0;
+	background: #000;
+	background: linear-gradient(2deg, #000 0, rgba(0, 0, 0, .2) 19%, rgba(0, 0, 0, 0) 28%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 100%);
+	z-index: 1;
+	pointer-events: none!important
+}
+
+.secondGradient {
+	position: fixed;
+	width: 100%;
+	left: 0;
+	height: 100vh;
+	bottom: 0;
+	background: #000;
+	background: linear-gradient(181deg, #000 0, rgba(0, 0, 0, .2) 24%, rgba(0, 0, 0, 0) 37%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 100%);
+	z-index: 1;
+	pointer-events: none!important
+}
+
+@media not all and (min-resolution:.001dpcm) {
+	@supports (-webkit-appearance: none) {
+		.firstGradient {
+			background:linear-gradient(2deg, #000 0, rgba(0, 0, 0, .2) 19%, rgba(0, 0, 0, 0) 28%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 100%)
+		}
+		.secondGradient {
+			background: linear-gradient(181deg, #000 0, rgba(0, 0, 0, .2) 24%, rgba(0, 0, 0, 0) 37%, rgba(255, 255, 255, 0) 67%, rgba(255, 255, 255, 0) 100%)
+		}
+	}
+}
