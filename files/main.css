@@ -1,0 +1,53 @@
+html {
+	background-color: black;
+	padding: 3vh;
+}
+
+body {
+	font-family: helvetica;
+	color: white;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.bioHeader {
+	font-weight: 200;
+	margin-top: 0px;
+	font-size: 17vw;
+	color: grey;
+	margin-bottom: 0;
+}
+
+.bioText {
+	font-size: 1.7vw;
+	color: white;
+	width: 50vw;
+	padding-bottom: 100px;
+}
+
+.portfolioCaption {
+	font-size: 3vh;
+	color: white;
+	width: 50vw;
+	padding-left: 3vw;
+	padding-bottom: 50px;
+}
+
+.grey {
+	color: grey;
+}
+
+.portfolio {
+	font-size: 10vw;
+	font-weight: 800;
+}
+
+a:hover {
+	color: gold !important;
+	transition: 0.5s;
+	transform: translateX(0px) translateY(75px);
+}
+
+a {
+	transition: 0.5s;
+}
