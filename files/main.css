@@ -7,7 +7,54 @@ html {
      color: white;
      margin-left: 50px;
      margin-right: 50px;
+		 background-color: black;
 }
+/*#loader-wrapper {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1000;
+		pointer-events: all;
+}
+
+#loader-wrapper .loader-section {
+		position: fixed;
+		top: 0;
+		background: black;
+		width: 51%;
+		height: 100%;
+		z-index: 1000;
+		pointer-events: all;
+}
+
+#loader-wrapper .loader-section.section-left {
+		left: 0
+}
+
+#loader-wrapper .loader-section.section-right {
+		right: 0;
+}
+
+
+.loaded #loader-wrapper .loader-section.section-left {
+		transition: all 0.6s 0.6s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader-wrapper .loader-section.section-right {
+		transition: all 0.6s 0.6s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+}
+
+.loaded #loader {
+		opacity: 0;
+		transition: all 0.6s ease-out;
+}
+
+.loaded #loader-wrapper {
+		opacity: 0;
+		transition: all 0.6s 0.6s ease-out;
+}*/
  .bioHeader {
      font-weight: 200;
      margin-top: 0px;
@@ -154,30 +201,30 @@ html {
  p {
      margin: 0;
 }
- #burger-toggle {
+ #burgerToggle {
      position: absolute;
      appearance: none;
      opacity: 0;
      display: none;
 }
- #burger-toggle:checked ~ .menu {
+ #burgerToggle:checked ~ .menu {
      opacity: 1;
      visibility: visible;
 }
- #burger-toggle:checked ~ .menu .menuNavLink span div, #burger-toggle:checked ~ .menu img, #burger-toggle:checked ~ .menu .title p {
+ #burgerToggle:checked ~ .menu .menuNavLink span div, #burgerToggle:checked ~ .menu img, #burgerToggle:checked ~ .menu .title p {
      transform: translateY(0);
      transition: transform 1.2s 0.1s cubic-bezier(0.35, 0, 0.07, 1);
 }
- #burger-toggle:checked ~ .burger-menu .line::after {
+ #burgerToggle:checked ~ .burger-menu .line::after {
      transform: translateX(0);
 }
- #burger-toggle:checked ~ .burger-menu .line:nth-child(1) {
+ #burgerToggle:checked ~ .burger-menu .line:nth-child(1) {
      transform: translateY(calc(var(--burger-menu-radius) / 5)) rotate(45deg);
 }
- #burger-toggle:checked ~ .burger-menu .line:nth-child(2) {
+ #burgerToggle:checked ~ .burger-menu .line:nth-child(2) {
      transform: scaleX(0);
 }
- #burger-toggle:checked ~ .burger-menu .line:nth-child(3) {
+ #burgerToggle:checked ~ .burger-menu .line:nth-child(3) {
      transform: translateY(calc(var(--burger-menu-radius) / -5)) rotate(-45deg);
 }
  .burger-menu {
@@ -387,4 +434,3 @@ html {
         }
     }
 }
- 

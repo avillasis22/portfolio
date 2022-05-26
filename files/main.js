@@ -1,29 +1,42 @@
 $(document).ready(function() {
 
     $('body').css('display', 'none');
-
-    $('body').fadeIn(1000);
-
-
-
-    $('.link').click(function() {
-
-        event.preventDefault();
-
-        newLocation = this.href;
-
-        $('body').fadeOut(1000, newpage);
-
-    });
-
-    function newpage() {
-
-        window.location = newLocation;
-
-    }
+    $('body').fadeIn(500);
 
 });
 
+$('a').click(function(e) {
+    e.preventDefault();
+    newLocation = this.href;
+    $('html').fadeOut('slow', newpage);
+});
+
+function newpage() {
+    window.location = newLocation;
+};
+
+function Reload() {
+    try {
+        var headElement = document.getElementsByTagName("head")[0];
+        if (headElement && headElement.innerHTML)
+            headElement.innerHTML += "<meta http-equiv=\"refresh\" content=\"1\">";
+    } catch (e) {}
+}
+
+
+if ((/iphone|ipod|ipad.*os 5/gi).test(navigator.appVersion)) {
+    window.onpageshow = function(evt) {
+        if (evt.persisted) {
+            document.body.style.display = "none";
+            location.reload();
+        }
+    };
+}
+
+window.addEventListener('load', function() {
+    document.querySelector('body').classList.add("loaded");
+    document.getElementById("loader-wrapper").style.zIndex = "0";
+});
 
 sr.reveal('.bioHeader, .portfolio, .portfolioCaption, .bioText', {
     origin: 'bottom',
