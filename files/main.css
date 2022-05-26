@@ -9,7 +9,7 @@ html {
      margin-right: 50px;
 		 background-color: black;
 }
-/*#loader-wrapper {
+#loader-wrapper {
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -39,22 +39,22 @@ html {
 
 
 .loaded #loader-wrapper .loader-section.section-left {
-		transition: all 0.6s 0.6s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+		transition: all 0.5s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader-wrapper .loader-section.section-right {
-		transition: all 0.6s 0.6s cubic-bezier(0.645, 0.045, 0.355, 1.000);
+		transition: all 0.5s 0.5s cubic-bezier(0.645, 0.045, 0.355, 1.000);
 }
 
 .loaded #loader {
 		opacity: 0;
-		transition: all 0.6s ease-out;
+		transition: all 0.5s ease-out;
 }
 
 .loaded #loader-wrapper {
 		opacity: 0;
-		transition: all 0.6s 0.6s ease-out;
-}*/
+		transition: all 0.5s 0.5s ease-out;
+}
  .bioHeader {
      font-weight: 200;
      margin-top: 0px;
