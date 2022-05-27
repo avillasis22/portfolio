@@ -15,7 +15,6 @@ function newpage() {
     window.location = newLocation;
 };
 
-
 window.addEventListener('load', function() {
     document.querySelector('body').classList.add("loaded");
     document.getElementById("loader-wrapper").style.zIndex = "0";
