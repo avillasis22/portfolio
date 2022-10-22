@@ -1,6 +1,8 @@
 html {
      background-color: black;
      padding: 3vh;
+		 overflow: scroll;
+		 overflow-x: hidden;
 }
  body {
      font-family: helvetica;
@@ -122,14 +124,15 @@ html {
  .lungcancerPortfolio {
      color: #737373;
 }
- .creativewritingPortfolio {
+ /*.creativewritingPortfolio {
+     color: #666666;
+}*/
+ .caeruleanPortfolio {
      color: #666666;
 }
- .caeruleanPortfolio {
-     color: #595959;
-}
  .villustratorsPortfolio {
-     color: #4c4c4c;
+     color: #595959;
+     /*4c4c4c*/
 }
  .portfolioAnimation {
      transition: 1s;
