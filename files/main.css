@@ -403,7 +403,7 @@ html {
      .menu {
          display: block;
          padding-top:15vh;
-         padding-left:20px;
+         padding-left:10px;
     }
      .menuNavLink {
          font-size:8vh;
@@ -413,12 +413,18 @@ html {
          padding-top:4vh;
          padding-bottom:4vh;
     }
+    .bioHeaderDiv {
+      padding-top:50px;
+    }
+    .bioHeader {
+      color: #30D5C8;
+    }
 }
  @media screen and (max-width: 680px) {
      .menu {
          display: block;
 				 padding-top:15vh;
-         padding-left:20px;
+         padding-left:10px;
     }
      .menuNavLink {
          font-size:13vw;
